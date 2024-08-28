@@ -7,4 +7,4 @@ The solution breaks into these main ideas:
 2) Avoid running through *s* in each query where we save the index (appearance) of each character of *s*
 3) Direct comparison of the substring *q* that has a unique sum according to hash, with an already prepared prefix sum of *s* (cummulative sum).
 
-The total time complexity is *O(t * (len1 + q * len2))*. Where len1 is the length of string *s*, len2 is the length of string *q*, *t* is the number of test cases and *q* is the number of queries (substrings).
+The total time complexity is *O(t * (len1 + q * len2))*. Where len1 is the length of string *s*, len2 is the length of a string in query *q*, *t* is the number of test cases and *q* is the number of queries (substrings).
