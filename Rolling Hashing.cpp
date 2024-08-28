@@ -1,16 +1,7 @@
 #include <iostream>
 #include<map>
 #include<string>
-#include<stack>
-#include<set>
-#include <algorithm>
-#include<cmath>
 #include <vector>
-#include<queue>
-#include <iterator>
-#include<fstream>
-#include<numeric>
-#include<list>
 #include<cstring>
 #include<cstdio>
 using namespace std;
@@ -34,11 +25,6 @@ ll fastPower(ll base, ll exp) {
 		exp /= 2;
 	}
 	return (result % PRIME);
-}
-
-bool isPowerOf2(ll n)
-{
-	return n > 0 && (n & (n - 1)) == 0;
 }
 
 void Hashing()
